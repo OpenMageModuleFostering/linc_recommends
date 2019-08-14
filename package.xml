@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<package>
+    <name>Linc_Recommends</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.letslinc.com/legal/LincCareLicenseAgreement/">Linc Global Commercial License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Linc Recommends streamlines a personal and contextual self-serviced customer care experience that drives loyalty.</summary>
+    <description>Uber customer care experience is the &lt;strong&gt;#1 driver for customer loyalty&lt;/strong&gt;. Linc Care makes it easy for retailers to offer a personal and contextual &lt;strong&gt;customer care experience&lt;/strong&gt; that wins loyalty and referral, at the same time reduces customer service cost.&#xD;
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;Install in minutes, you will get a major face-lift for all your order confirmation and order shipped notification emails, which has:&#xD;
+&lt;strong&gt;A dynamically updated one-touch service center&lt;/strong&gt; that&#xD;
+&lt;br /&gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. shows your customers &lt;strong&gt;live order tracking status&lt;/strong&gt; right within the email at the time the customers open the emails. &lt;a href="https://internal.letslinc.com/ecare/dashboard/demo/36ad21cc-eabd-11e3-b42b-22000ac69e83"&gt;&lt;b&gt;Click to see a live demo &amp;gt;&amp;gt;&lt;/b&gt;&lt;/a&gt;&#xD;
+&lt;br /&gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. offers your customers &lt;strong&gt;text message notifications&lt;/strong&gt; on an opt-in basis for shipping and delivery (we are integrated to all shippers and manages both notifications and customer preference without any development on your end)&#xD;
+&lt;br /&gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;3. assists your customers on interactions with you. Let it be a product question or a general inquiry, Linc Care uses the customer&#x2019;s own purchase details to &lt;strong&gt;intelligently guide the customer through a seamless experience&lt;/strong&gt;, plus customers can request a call back or receive answers in text messages. We handle it all, and all you need is a customer service email address and reply the email inquiries :) &lt;a href="https://internal.letslinc.com/ecare/dashboard/demo/36ad21cc-eabd-11e3-b42b-22000ac69e83"&gt;&lt;b&gt;Click to see a live demo &amp;gt;&amp;gt;&lt;/b&gt;&lt;/a&gt;&#xD;
+&lt;br /&gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;4. [Optional] assists your customers with return / exchange, where they can directly view the return policy, give you feedback on reasons for return, and directly print out shipping label.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;strong&gt; &lt;/strong&gt;&#xD;
+&lt;h2&gt;Responsive Design for all Devices&lt;/h2&gt;&#xD;
+Fully responsive design for large screens or small screens like smart phones, &lt;strong&gt;delighting on-the-go shoppers&lt;/strong&gt; wherever they access their order status.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;strong&gt; &lt;/strong&gt;&#xD;
+&lt;h2&gt;Dedicated Customer Success Team and Full Support for A/B Testing&lt;/h2&gt;&#xD;
+Linc Care can be easily installed in minutes. But if you do need help or customization, regardless the size of your organization, we make sure you have a dedicated account manager to assist you.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&lt;strong&gt; &lt;/strong&gt;&#xD;
+&lt;h2&gt;Follow Linc&lt;/h2&gt;&#xD;
+Linc Care is built by a team of seasoned technologists who brought to life large scale consumer products for companies like &lt;strong&gt;Google, Yahoo and Amazon&lt;/strong&gt;. We were driven by the passion and believe that technology can truly empower mid-sized retail owners to compete and out-perform large retailers. We are new to Magneto platform, but are&lt;strong&gt; serving internet 1000 everyday&lt;/strong&gt;. If you have feature requests and suggestions for us, please do contact  &lt;a href="mailto:linc-care-issues-magento@letslinc.com"&gt;Linc Care Support&lt;/a&gt;. We want to hear from you! &lt;/p&gt;&#xD;
+&lt;p&gt;&lt;a href="http://www.letslinc.com"&gt;www.letslinc.com&lt;/a&gt;&lt;/p&gt;&#xD;
+&#xD;
+&amp;nbsp;&#xD;
+&lt;p&gt;&#xD;
+The Linc Care Professional Services Team is available to help you customize your experience at: &lt;a href="mailto:sales@linccare.com"&gt;sales@linccare.com&lt;/a&gt;&lt;/p&gt;&#xD;
+</description>
+    <notes>Welcome to the Linc Recommends extension for Magento.&#xD;
+&#xD;
+This extension requires the Linc Care extenstion. Please install that first or Linc Recommends will not function properly.&#xD;
+&#xD;
+Linc Recommends requires only a miminal installation and no configuration. Just install it has you would any extension.&#xD;
+&#xD;
+After installation you must enable cron if you it isn't already. Information about this can be found at http://www.magentocommerce.com/wiki/1_-_installation_and_configuration/how_to_setup_a_cron_job#magento_and_crontab&#xD;
+&#xD;
+Send any issues or comments to linc-care-issues-magento@letslinc.com</notes>
+    <authors><author><name>Linc</name><user>letslincapp</user><email>apps@letslinc.com</email></author></authors>
+    <date>2014-12-12</date>
+    <time>11:43:12</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Linc_Recommends.xml" hash="0ce16336373f1491e8b2aa6a0a7cd349"/></dir></target><target name="magecommunity"><dir name="Linc"><dir name="Recommends"><dir name="Block"><file name="Recommends.php" hash="6722a5c8be65a18ba47bd6167e6705cf"/></dir><dir name="Helper"><file name="Data.php" hash="bc04b4d72523c54d50cbed5262c773a5"/></dir><dir name="Model"><file name="Orders.php" hash="6c40b4a403b818b5b20ced992b02539d"/><file name="Products.php" hash="e896c22f13975e38fa4b88aa22063f3f"/></dir><file name="common.php" hash="82b09b911018f12ce42efd9a32bbddf1"/><dir name="etc"><file name="config.xml" hash="cfe6b372b6bba0f3795a0509a9400eb3"/><file name="system.xml" hash="e04929738101399bf8310fdbeebb7698"/></dir><file name="readme" hash="ea055cf644f770cfa8456d808d5e0c60"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Linc_Care</name><channel>community</channel><min>1.12</min><max/></package></required></dependencies>
+</package>

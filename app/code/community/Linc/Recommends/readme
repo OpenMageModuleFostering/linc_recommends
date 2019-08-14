@@ -1,0 +1,26 @@
+Welcome to the Linc Recommendations extension for Magento.
+
+1. Log onto your store's admin console.
+2. Go to System / Magento Connect / Magento Connect Manager and log on
+3. Click on the Magento Connect link [1]. On their site search for Linc Care and obtain the Extension Key.
+4. Return to the Magento Downloader and part the key [2] then click the install button.
+5. Make sure the Package Name and Version are correct then click the Proceed button.
+6. When the install completes click the refresh button and ensure that Linc Care has been installed.
+6. Go back to the admin page and navigate to System / Configuration and click on the "General" group on the "Linc Care" tab.
+7. You will see a message telling you to select a store. Do so and a form will appear. The default URL and Admin Email address
+
+
+
+
+
+
+7. System/Transactional Email
+6. If you have a have custom emails already, edit it and insert {{block type='linccare/widget' order=$order}} where you want the Linc Care widget to appear. Then save the template and skip to step 11
+7. If not Click the Add New Template button.
+8. On the next page select New Order from the Template dropdown and click the Load Template button
+9. Name the new template and insert {{block type='linccare/widget' order=$order}} where you want the Linc Care widget to appear. Then save the template.
+10. Repeat for any other order-based emails you want connected to Linc Care. We suggest New Order Guest
+11. Go to System / Sales / Sales Email / Order and select the new templates for New Order Confirmation Email
+12. Save the configuration
+
+If you have any comments or questions, please email us at support@linccare.com

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Linc Recommends
+ *
+ * NOTICE OF LICENSE
+ *
+ * The Linc Recommends Extension for Magento is in development and no license is granted for any purpose.
+ *
+ * @category    Linc
+ * @package     Linc_Recommends
+ * @copyright   Copyright (c) 2014 Linc Global, Inc. (http://www.letslinc.com)
+ * @license     http://www.letslinc.com/legal/LincCareLicenseAgreement/  Linc Global Commecial Licence
+ */
+-->
+<config>
+	<modules>
+		<Linc_Recommends>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Linc_Recommends>
+	</modules>
+</config>

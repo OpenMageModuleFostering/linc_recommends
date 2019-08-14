@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Module configuration
+ *
+ * @author Rick Murtagh, Linc Global, Inc.
+ *
+ */
+-->
+<config>
+	<modules>
+		<Linc_Recommends>
+			<version>0.0.1</version>
+		</Linc_Recommends>
+	</modules>
+    <global>
+		<models>
+			<recommends>
+				<class>Linc_Recommends_Model</class>
+			</recommends>
+		</models>
+		<blocks>
+			<recommends>
+				<class>Linc_Recommends_Block</class>
+			</recommends>
+		</blocks>
+		<helpers>
+		    <recommends>
+		        <class>Linc_Recommends_Helper</class>
+		    </recommends>
+		</helpers>
+	</global>
+    <crontab>
+        <jobs>
+            <linc_recommends_products>
+                <schedule><cron_expr>*/15 * * * *</cron_expr></schedule>
+                <run><model>recommends/products::sendproducts</model></run>
+            </linc_recommends_products>
+            <linc_recommends_orders>
+                <schedule><cron_expr>*/15 * * * *</cron_expr></schedule>
+                <run><model>recommends/orders::sendorders</model></run>
+            </linc_recommends_orders>
+        </jobs>
+    </crontab>
+</config>
